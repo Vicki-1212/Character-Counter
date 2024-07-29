@@ -1,0 +1,10 @@
+.list-items {
+  list-style-type: none;
+}
+
+.count-details {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight:bold;
+  font-family:"Roboto";
+}

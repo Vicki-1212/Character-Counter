@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.coutList-container {
+  background-color: #ffc533;
+  min-height: 60vh;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.count-container-heading {
+  background-color: #ffbf1f;
+  border-radius: 5px;
+  color: #334155;
+  font-family: 'Roboto';
+  padding: 30px;
+  font-size: 30px;
+}
+
+.no-view-image {
+  width: 70%;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0f172a;
+  height: 60vh;
+  width: 50%;
+  padding: 10px;
+}
+
+.input-heading {
+  font-family: 'Roboto';
+  padding: 30px;
+  font-size: 40px;
+  color: #ffc533;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-text {
+  background-color: #ffffff;
+  height: 60px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border: 2px solid #475569;
+  border-radius: 5px;
+  width: 300px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.button {
+  color: #475569;
+  background-color: #ffc533;
+  height: 58px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
